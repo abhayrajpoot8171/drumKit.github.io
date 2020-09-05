@@ -1,0 +1,66 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+}
+.heading{
+    font-size: 2rem;
+    color:white;
+    position: absolute;
+    top:3%;
+    left:45%;
+}
+.instructions {
+    position: absolute;
+    top:10%;
+    left:36%;
+    color: white;
+}
+.container {
+        font-family: poppins;
+        border:1px solid black;
+        background: url(images/music.jpeg) no-repeat center;
+        background-size: cover; 
+}
+.keys {
+     width: 100%;
+     height: 100vh;
+     display: grid;
+     border: 1px solid black;
+     justify-content: center;
+     align-items: center;
+     grid-template-columns: 1fr 1fr 1fr;
+    padding: 12% 26%; 
+}
+
+.key {
+    display: grid;
+     justify-content: center;
+    color:white; 
+    
+}
+.sub-key {
+    display: grid;
+    justify-content: center;
+    border:1px solid yellow;
+    padding-top: 10px;
+    height: 12vh;
+    width: 8vw;
+    background: linear-gradient(#0f0e0e, #262322,#0f0e0e); 
+    transition: all 0.1s;
+    box-shadow: 0 0 25px black;
+}
+.playing {
+    transform: scale(1.2);
+    border:5px solid yellow;
+    box-shadow: 30 55 75px yellow;
+}
+kbd {
+    font-size: 2.2rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
